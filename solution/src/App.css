@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  border: solid black 2px;
+  margin: 25px;
+  padding: 50px;
+  max-width: 800px;
+}
+
+.nameBlock, .locationBlock{
+display: flex;
+flex-direction: row;
+margin-bottom: 15px;
+}
+
+.labels{
+  margin-right: 15px;
+}
+
+.nameErrorMsg{
+  color: red;
+}
+
+.buttonsBlock{
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.clearButton{
+  margin-right: 10px;
+}
